@@ -217,3 +217,18 @@ html {
   color: #777;
   font-size: 3rem;
 }
+
+.copyright {
+  font-family: 'Lato';
+  padding: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.copy-title {
+  font-size: 2rem;
+}
+
+.copy-disc {
+  font-size: 1.4rem;
+}
