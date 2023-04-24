@@ -24,5 +24,22 @@ html {
 
 .nav i {
   font-size: 3rem;
+  color: #272a31;
   padding: 1rem;
+}
+
+.home-body {
+  padding: 6rem 3rem 1rem 1.5rem;
+  font-family: 'Lato';
+}
+
+.body-disc {
+  font-size: 2rem;
+  color: #ec5242;
+}
+
+.home-heading {
+  font-size: 3rem;
+  color: #ec5242;
+  font-weight: 700;
 }
