@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+.home {
+  background: url("./img/png-transparent-simple-white-honeycomb-pattern-background-white-polygon-honeycomb-thumbnail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  padding: 1rem;
+  position: fixed;
+}
+
+.nav i {
+  font-size: 3rem;
+  padding: 1rem;
+}
