@@ -15,6 +15,7 @@ html {
   background: url("./img/white-radial-gradient-a5802da1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 5rem;
 }
 
 .nav {
