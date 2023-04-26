@@ -179,9 +179,11 @@ html {
 
 .dnav {
   display: flex;
+  background: #fff;
   justify-content: center;
   align-items: center;
-  gap: 7rem;
+  gap: 232px;
+  padding: 0 198px 0 209px;
 }
 
 .navbrand {
@@ -192,10 +194,11 @@ html {
 
 .dnav-list {
   display: flex;
-  flex-direction: row;
   list-style: none;
-  justify-content: flex-end;
-  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 65px;
 }
 
 .dnav-item {
