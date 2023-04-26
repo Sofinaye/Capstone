@@ -11,6 +11,10 @@ html {
   box-sizing: inherit;
 }
 
+.header {
+  display: none;
+}
+
 .about-front {
   background: url("./img/white-radial-gradient-a5802da1.jpg");
   background-repeat: no-repeat;
@@ -234,6 +238,14 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  
+  .nav {
+    display: none;
+  }
+  
   .header {
   display: flex;
   font-family: 'Lato';
