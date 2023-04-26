@@ -11,6 +11,10 @@ html {
   box-sizing: inherit;
 }
 
+.header {
+  display: none;
+}
+
 .home {
   background: url("./img/png-transparent-simple-white-honeycomb-pattern-background-white-polygon-honeycomb-thumbnail.png");
   background-repeat: no-repeat;
@@ -136,4 +140,32 @@ html {
   height: 1px;
   margin: 1rem 46%;
   background-color: #ec5242;
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+
+  .header {
+  display: flex;
+  font-family: 'Lato';
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 9rem 0 0;
+  gap: 2rem;
+  background: #3e3e3e;
+}
+
+.header i {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0.5rem 0;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color:#fff;
+}
 }
