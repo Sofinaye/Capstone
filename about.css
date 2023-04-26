@@ -142,6 +142,8 @@ html {
    #ec5247  ), 
    url("./img/istockphoto-482362583-612x612.jpg");
    color: #fff;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .exp {
@@ -164,6 +166,8 @@ html {
    url("./img/istockphoto-468438437-612x612.jpg");
    color: #fff;
    margin-bottom: 4rem;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .footer {
@@ -333,5 +337,22 @@ html {
   
   .logo-heading {
     margin: 1rem 30%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .experiance-item {
+    height: 25vh;
+    width: 30vw;
+  }
+
+  .experiance-item1 {
+    height: 25vh;
+    width: 30vw;
   }
 }
