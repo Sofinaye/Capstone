@@ -211,4 +211,32 @@ html {
   border: 3px solid #ec5242;
   background: #fff;
 }
+
+.home-body {
+  width: 70vw;
+  padding-left: 14rem;
+}
+
+.body-disc {
+  font-size: 3rem;
+}
+
+.home-heading {
+  font-size: 4rem;
+}
+
+.body-disc2 {
+  font-size: 2.2rem;
+  background: #f8f8f8;
+  border: 8.5ps solid #fff;
+}
+
+.heading2 {
+  font-size: 42.5px;
+}
+
+.home-footer {
+  font-size: 28px;
+}
+
 }
