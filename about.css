@@ -306,4 +306,32 @@ html {
     border: 3px solid #ec5242;
     background: #fff;
   }
+
+  .about-front-disc {
+    display: none;
+  }
+
+  .about-front-heading {
+    text-align: center;
+    padding: 2rem 25%;
+  }
+
+  .about-front-disc2 {
+    padding: 2rem;
+    margin: 0 20%;
+    background-color: #f8f8f8;
+    border: 1rem solid #fff;
+  }
+
+  .about-front-contact {
+    text-align: center;
+  }
+
+  .front-contact {
+    margin: 0 45%;
+  }
+  
+  .logo-heading {
+    margin: 1rem 30%;
+  }
 }
