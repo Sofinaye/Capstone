@@ -23,6 +23,10 @@ html {
   font-family: 'Lato';
 }
 
+.dnav {
+  display: none;
+}
+
 .nav {
   padding: 1rem;
   position: fixed;
@@ -266,5 +270,40 @@ html {
     text-decoration: none;
     font-size: 1.5rem;
     color:#fff;
+  }
+
+  .dnav {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  gap: 232px;
+  padding: 0 198px 0 209px;
+}
+
+  .navbrand {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #4a4e52;
+  }
+
+  .dnav-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 65px;
+  }
+
+  .dnav-item {
+    font-size: 1.2rem;
+  }
+
+  .dnav-item button {
+    padding: 0.1rem 1rem;
+    color:#ec5242;
+    border: 3px solid #ec5242;
+    background: #fff;
   }
 }
