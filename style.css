@@ -129,6 +129,10 @@ html {
   margin: 2rem 30%;
 }
 
+.program-disc {
+  display: none;
+}
+
 .teachers {
   background: #fff;
   font-family: 'Lato';
@@ -239,4 +243,49 @@ html {
   font-size: 28px;
 }
 
+.program-heading {
+  font-size: 30px;
 }
+
+.method-list {
+  flex-direction: row;
+  padding: 0;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.method-item {
+  flex-direction: column;
+}
+
+.method-item-title {
+  font-size: 28px;
+}
+
+.method-item-disc {
+  font-size: 12px;
+}
+
+.program-btn {
+  display: none;
+}
+
+.program-disc {
+  display: block;
+  text-decoration: underline;
+  color: #fff;
+  font-size: 20px;
+}
+/* .main-progr
+.program-he
+.program-un
+.method-lis
+.method-item
+.method-item i
+.method-item-title
+.method-item-disc
+.program-btn */
+
+}
+
