@@ -150,6 +150,41 @@ html {
   background-color: #ec5242;
 }
 
+.teacher-body {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  font-family: 'Lato';
+}
+
+.teacher-img-container {
+  width: 90vw;
+}
+
+.teacher-img {
+  width: 100%;
+}
+
+.teacher-disc-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.teacher-title {
+  font-size: 2rem;
+}
+
+.teacher-disc {
+  font-size: 1.2rem;
+  color: #ec5242;
+}
+
+.teacher-disc2 {
+  font-size: 1.2rem;
+}
+
 @media only screen and (min-width: 768px) {
   html {
     font-size: 80%;
