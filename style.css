@@ -190,6 +190,10 @@ html {
   font-size: 1.2rem;
 }
 
+.footer {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   html {
     font-size: 80%;
@@ -325,6 +329,66 @@ html {
 
 .teacher-img-container {
   width: 33vw;
+}
+
+.footer {
+  background-color: #272a31;
+  padding: 2rem;
+  color: #fff;
+  font-family: 'Lato';
+}
+
+.partners-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.partners-under {
+  height: 1px;
+  margin: 1rem 46%;
+  background: #ec5242;
+}
+
+.partners-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.partners-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mozilla {
+  text-decoration: none;
+  color: #777;
+  font-size: 3rem;
+}
+
+.google {
+  text-decoration: none;
+  color: #777;
+  font-size: 3rem;
+}
+
+.naver {
+  text-decoration: none;
+  color: #777;
+  font-size: 3rem;
+}
+
+.daunmkakao {
+  text-decoration: none;
+  color: #777;
+  font-size: 3rem;
+}
+
+.airbnb {
+  text-decoration: none;
+  color: #777;
+  font-size: 3rem;
 }
 
 }
