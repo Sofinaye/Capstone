@@ -470,5 +470,9 @@ html {
   font-size: 1.4rem;
 }
 
+.menu-section-active {
+  width: 0;
+}
+
 }
 
