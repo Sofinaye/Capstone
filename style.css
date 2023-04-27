@@ -194,6 +194,10 @@ html {
   display: none;
 }
 
+.copyright {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   html {
     font-size: 80%;
@@ -332,6 +336,7 @@ html {
 }
 
 .footer {
+  display: block;
   background-color: #272a31;
   padding: 2rem;
   color: #fff;
@@ -389,6 +394,22 @@ html {
   text-decoration: none;
   color: #777;
   font-size: 3rem;
+}
+
+.copyright {
+  display: block;
+  font-family: 'Lato';
+  padding: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.copy-title {
+  font-size: 2rem;
+}
+
+.copy-disc {
+  font-size: 1.4rem;
 }
 
 }
