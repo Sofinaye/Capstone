@@ -150,6 +150,11 @@ html {
   background-color: #ec5242;
 }
 
+.teachers-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .teacher-body {
   display: flex;
   padding: 1rem;
@@ -221,7 +226,7 @@ html {
   background: #fff;
   justify-content: center;
   align-items: center;
-  gap: 232px;
+  gap: 150px;
   padding: 0 198px 0 209px;
 }
 
@@ -237,7 +242,7 @@ html {
   justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 65px;
+  gap: 50px;
 }
 
 .dnav-item {
@@ -312,6 +317,14 @@ html {
   color: #fff;
   font-size: 20px;
   margin: 0 44%;
+}
+
+.teachers-container {
+  flex-direction: row;
+}
+
+.teacher-img-container {
+  width: 33vw;
 }
 
 }
