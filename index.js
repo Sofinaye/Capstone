@@ -1,4 +1,4 @@
-const teachers = [
+const teachersDictionary = [
   {
     title: 'SehYeong Noh',
     description: 'Director of Frontend department and member of University board.',
@@ -67,6 +67,8 @@ const generateTeacherDom = () => {
   teachersContainer.appendChild(teacher1);
 
   for (let i = 0; i < 3; i += 1) {
+    const teachers = teachersDictionary[i];
+
     const teacherBody = document.createElement('div');
     teacherBody.setAttribute('class', 'teacher-body');
     teacher1.appendChild(teacherBody);
@@ -106,6 +108,8 @@ const generateTeacherDom = () => {
   teachersContainer.appendChild(teacher2);
 
   for (let i = 0; i < 3; i += 1) {
+    const teachers = teachersDictionary[i + 3];
+
     const teacherBody = document.createElement('div');
     teacherBody.setAttribute('class', 'teacher-body');
     teacher2.appendChild(teacherBody);
