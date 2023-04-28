@@ -33,6 +33,7 @@ The Capstone project is built with html, css, javascript and linter configration
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">css</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript<a></li>
   </ul>
 </details>
 
