@@ -1,0 +1,438 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+.header {
+  display: none;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #3c3a39;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 5rem;
+  width: 0;
+  transition: 0.3s;
+}
+
+.menu-section-active {
+  width: 100%;
+}
+
+.menu-list {
+  list-style: none;
+  font-size: 32px;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  color: #fff5e1;
+  display: flex;
+  padding: 0 2rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menu-toggle {
+  position: absolute;
+  padding: 0.5rem;
+  right: 2rem;
+  top: 2rem;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggle i {
+  color: #979493;
+  font-size: 22px;
+}
+
+.menu-item {
+  border-bottom: 1px solid #6f6c6b;
+  padding: 1rem;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff5e1;
+}
+
+.about-front {
+  background: url("./img/white-radial-gradient-a5802da1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5rem;
+  font-family: 'Lato', serif;
+}
+
+.dnav {
+  display: none;
+}
+
+.nav {
+  padding: 1rem;
+  position: fixed;
+}
+
+.nav i {
+  font-size: 3rem;
+  color: #272a31;
+  padding: 1rem;
+}
+
+.about-front-body {
+  padding: 6rem 3rem 1rem 1.5rem;
+  font-family: 'Lato', serif;
+}
+
+.about-front-disc {
+  font-size: 2rem;
+  color: #ec5242;
+  text-align: center;
+  padding: 2rem;
+}
+
+.about-front-heading {
+  font-size: 3rem;
+  color: #ec5242;
+  font-weight: 700;
+}
+
+.about-front-disc2 {
+  margin-top: 2rem;
+  border: 1px solid rgb(230, 228, 228);
+  background: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.about-front-contact {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.front-contact {
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin-left: 30%;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.logo {
+  font-family: 'Lato', serif;
+}
+
+.logo-title {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo-under {
+  height: 1px;
+  margin: 1rem 46%;
+  background-color: #ec5242;
+}
+
+.logo-disc {
+  font-size: 1.7rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+.logo-heading {
+  font-size: 5rem;
+  text-align: center;
+  border: 1px solid rgb(189, 186, 186);
+  color: #ec5242;
+  margin: 3rem 2rem;
+  padding: 1rem 0;
+}
+
+.experiance {
+  font-family: 'Lato', serif;
+  padding: 3rem;
+  border-top: 1px solid #777;
+}
+
+.experiance-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.experiance-under {
+  height: 1px;
+  margin: 1rem 46%;
+  background-color: #ec5242;
+}
+
+.experiance-disc {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.experiance-item {
+  height: 40vw;
+  margin-top: 2rem;
+  background: linear-gradient(to right, #f8816379, #ec5247), url("./img/istockphoto-468438437-612x612.jpg");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exp {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.expp {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.experiance-item1 {
+  height: 40vw;
+  margin-top: 2rem;
+  background: linear-gradient(to right, #f8816379, #ec5247), url("./img/istockphoto-468438437-612x612.jpg");
+  color: #fff;
+  margin-bottom: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background-color: #272a31;
+  padding: 2rem;
+  color: #fff;
+  font-family: 'Lato', serif;
+}
+
+.partners-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.partners-under {
+  height: 1px;
+  margin: 1rem 46%;
+  background: #ec5242;
+}
+
+.partners-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.partners-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mozilla {
+  text-decoration: none;
+  color: #777;
+  font-size: 3rem;
+}
+
+.google {
+  text-decoration: none;
+  color: #777;
+  font-size: 3rem;
+}
+
+.naver {
+  text-decoration: none;
+  color: #777;
+  font-size: 3rem;
+}
+
+.daunmkakao {
+  text-decoration: none;
+  color: #777;
+  font-size: 3rem;
+}
+
+.airbnb {
+  text-decoration: none;
+  color: #777;
+  font-size: 3rem;
+}
+
+.copyright {
+  font-family: 'Lato', serif;
+  padding: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.copy-title {
+  font-size: 2rem;
+}
+
+.copy-disc {
+  font-size: 1.4rem;
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    font-family: 'Lato', serif;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 9rem 0 0;
+    gap: 2rem;
+    background: #3e3e3e;
+  }
+
+  .header i {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0.5rem 0;
+  }
+
+  .header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .dnav {
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 232px;
+    padding: 0 198px 0 209px;
+  }
+
+  .navbrand {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #4a4e52;
+  }
+
+  .navbrand:hover {
+    color: #ec5242;
+  }
+
+  .dnav-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 65px;
+  }
+
+  .dnav-item {
+    font-size: 1.2rem;
+  }
+
+  .dnav-item a {
+    text-decoration: none;
+    color: #4a4e52;
+  }
+
+  .dnav-item:hover {
+    color: #ec5242;
+  }
+
+  .dnav-item button {
+    padding: 0.1rem 1rem;
+    color: #ec5242;
+    border: 3px solid #ec5242;
+    background: #fff;
+  }
+
+  .about-front-disc {
+    display: none;
+  }
+
+  .about-front-heading {
+    text-align: center;
+    padding: 2rem 25%;
+  }
+
+  .about-front-disc2 {
+    padding: 2rem;
+    margin: 0 20%;
+    background-color: #f8f8f8;
+    border: 1rem solid #fff;
+  }
+
+  .about-front-contact {
+    text-align: center;
+  }
+
+  .front-contact {
+    margin: 0 45%;
+  }
+
+  .logo-heading {
+    margin: 1rem 30%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .experiance-item {
+    height: 25vh;
+    width: 30vw;
+  }
+
+  .experiance-item1 {
+    height: 25vh;
+    width: 30vw;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .copyright {
+    background: #272a31;
+    color: #f8f8f8;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-section-active {
+    width: 0;
+  }
+}
