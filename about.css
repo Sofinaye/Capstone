@@ -360,6 +360,11 @@ html {
     font-size: 1.2rem;
   }
 
+  .dnav-item a {
+    text-decoration: none;
+    color: #4a4e52;
+  }
+
   .dnav-item:hover {
     color: #ec5242;
   }
