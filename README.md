@@ -20,13 +20,13 @@
 
 # 📖  Personal Portfolio <a name="about-project"></a>
 
-**Personal portfolio** is a static portfolio website.
+**Cap stone project** is a static portfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-The portfolio is built with html, css, javascript and linter configration with git workflow.
+The Capstone project is built with html, css, javascript and linter configration with git workflow.
 
 <details>
   <summary>Client</summary>
@@ -49,7 +49,7 @@ The portfolio is built with html, css, javascript and linter configration with g
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://sofinaye.github.io/Portfolio/)
+- [Live Demo Link](https://sofinaye.github.io/Capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +67,7 @@ Clone this repository to your desired folder: to your desired.
 
 ```sh
   cd my-folder
-  git clone git@github.com:Sofinaye/Portfo.git
+  git clone git@github.com:Sofinaye/Capstone.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -78,7 +78,7 @@ Clone this repository to your desired folder: to your desired.
 - GitHub: [@githubhandle](https://github.com/Sofinaye)
 - Twitter: [@twitterhandle](https://twitter.com/Abeni_Fekadu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abenezer-fekadu/)
-- Live link: [Live-link](https://sofinaye.github.io/Portfolio/)
+- Live link: [Live-link](https://sofinaye.github.io/Capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,14 +86,9 @@ Clone this repository to your desired folder: to your desired.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-
  **add js support**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -111,7 +106,7 @@ If you like this project reachout via twitter, likdin or github and show your su
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank  Cindy Shin in Behance for the design Guide lines.
 
 ## 📝 License <a name="license"></a>
 
