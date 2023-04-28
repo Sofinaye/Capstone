@@ -497,11 +497,16 @@ html {
     font-size: 3rem;
   }
 
+  .foter {
+    display: flex;
+    justify-content: center;
+  }
+
   .copyright {
     font-family: 'Lato', serif;
     padding: 3rem;
     display: flex;
-    gap: 1rem;
+    gap: 5rem;
   }
 
   .copy-title {
