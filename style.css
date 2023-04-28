@@ -343,9 +343,10 @@ html {
   }
 
   .dnav-item button {
-    padding: 0.1rem 1rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.6rem;
     color: #ec5242;
-    border: 3px solid #ec5242;
+    border: 5px solid #ec5242;
     background: #fff;
   }
 
