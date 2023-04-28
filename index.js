@@ -4,8 +4,8 @@ const teachers = {
   description: 'Director of Frontend department and member of University board.',
   descriptionn: 'SehYeong Noh has attended his Masters and Phd degree in this university and He was amongest the best achiveres and he is currently Teaching in this university.',
   img: './img/teach.png',
-  alt: 'teacher'
-}
+  alt: 'teacher',
+};
 
 const menuIcon = document.querySelector('#menu-icon');
 const menuToggle = document.querySelector('#menu-toggle');
@@ -30,85 +30,84 @@ const generateTeacherDom = () => {
   teacher1.setAttribute('class', 'teacher1');
   teachersContainer.appendChild(teacher1);
 
-  for (let i = 0; i < 3; i = i + 1) {
-      const teacherBody = document.createElement('div');
-      teacherBody.setAttribute('class', 'teacher-body');
-      teacher1.appendChild(teacherBody);
+  for (let i = 0; i < 3; i += 1) {
+    const teacherBody = document.createElement('div');
+    teacherBody.setAttribute('class', 'teacher-body');
+    teacher1.appendChild(teacherBody);
 
-      const imgContainer = document.createElement('div');
-      imgContainer.setAttribute('class', 'teacher-img-container');
-      teacherBody.appendChild(imgContainer);
+    const imgContainer = document.createElement('div');
+    imgContainer.setAttribute('class', 'teacher-img-container');
+    teacherBody.appendChild(imgContainer);
 
-      const teacherImage = document.createElement('img');
-      teacherImage.setAttribute('class', 'teacher-img');
-      teacherImage.setAttribute('src', teachers.img);
-      teacherImage.setAttribute('alt', teachers.alt);
-      imgContainer.appendChild(teacherImage);
+    const teacherImage = document.createElement('img');
+    teacherImage.setAttribute('class', 'teacher-img');
+    teacherImage.setAttribute('src', teachers.img);
+    teacherImage.setAttribute('alt', teachers.alt);
+    imgContainer.appendChild(teacherImage);
 
-      const teacherDisc = document.createElement('div');
-      teacherDisc.setAttribute('class', 'teacher-disc-body');
-      teacherBody.appendChild(teacherDisc);
+    const teacherDisc = document.createElement('div');
+    teacherDisc.setAttribute('class', 'teacher-disc-body');
+    teacherBody.appendChild(teacherDisc);
 
-      const teacherTitle = document.createElement('h2');
-      teacherTitle.setAttribute('class', 'teacher-title');
-      teacherTitle.textContent = teachers.title;
-      teacherDisc.appendChild(teacherTitle);
+    const teacherTitle = document.createElement('h2');
+    teacherTitle.setAttribute('class', 'teacher-title');
+    teacherTitle.textContent = teachers.title;
+    teacherDisc.appendChild(teacherTitle);
 
-      const teacherdisc = document.createElement('p');
-      teacherdisc.setAttribute('class', 'teacher-disc');
-      teacherdisc.textContent = teachers.description;
-      teacherDisc.appendChild(teacherdisc);
+    const teacherdisc = document.createElement('p');
+    teacherdisc.setAttribute('class', 'teacher-disc');
+    teacherdisc.textContent = teachers.description;
+    teacherDisc.appendChild(teacherdisc);
 
-      const teacherdiscc = document.createElement('p');
-      teacherdiscc.setAttribute('class', 'teacher-disc2');
-      teacherdiscc.textContent = teachers.descriptionn;
-      teacherDisc.appendChild(teacherdiscc);
+    const teacherdiscc = document.createElement('p');
+    teacherdiscc.setAttribute('class', 'teacher-disc2');
+    teacherdiscc.textContent = teachers.descriptionn;
+    teacherDisc.appendChild(teacherdiscc);
   }
 
   const teacher2 = document.createElement('div');
   teacher2.setAttribute('class', 'teacher2');
   teachersContainer.appendChild(teacher2);
 
-  for (let i = 0; i < 3; i = i + 1) {
-      const teacherBody = document.createElement('div');
-      teacherBody.setAttribute('class', 'teacher-body');
-      teacher2.appendChild(teacherBody);
+  for (let i = 0; i < 3; i += 1) {
+    const teacherBody = document.createElement('div');
+    teacherBody.setAttribute('class', 'teacher-body');
+    teacher2.appendChild(teacherBody);
 
-      const imgContainer = document.createElement('div');
-      imgContainer.setAttribute('class', 'teacher-img-container');
-      teacherBody.appendChild(imgContainer);
+    const imgContainer = document.createElement('div');
+    imgContainer.setAttribute('class', 'teacher-img-container');
+    teacherBody.appendChild(imgContainer);
 
-      const teacherImage = document.createElement('img');
-      teacherImage.setAttribute('class', 'teacher-img');
-      teacherImage.setAttribute('src', teachers.img);
-      teacherImage.setAttribute('alt', teachers.alt);
-      imgContainer.appendChild(teacherImage);
+    const teacherImage = document.createElement('img');
+    teacherImage.setAttribute('class', 'teacher-img');
+    teacherImage.setAttribute('src', teachers.img);
+    teacherImage.setAttribute('alt', teachers.alt);
+    imgContainer.appendChild(teacherImage);
 
-      const teacherDisc = document.createElement('div');
-      teacherDisc.setAttribute('class', 'teacher-disc-body');
-      teacherBody.appendChild(teacherDisc);
+    const teacherDisc = document.createElement('div');
+    teacherDisc.setAttribute('class', 'teacher-disc-body');
+    teacherBody.appendChild(teacherDisc);
 
-      const teacherTitle = document.createElement('h2');
-      teacherTitle.setAttribute('class', 'teacher-title');
-      teacherTitle.textContent = teachers.title;
-      teacherDisc.appendChild(teacherTitle);
+    const teacherTitle = document.createElement('h2');
+    teacherTitle.setAttribute('class', 'teacher-title');
+    teacherTitle.textContent = teachers.title;
+    teacherDisc.appendChild(teacherTitle);
 
-      const teacherdisc = document.createElement('p');
-      teacherdisc.setAttribute('class', 'teacher-disc');
-      teacherdisc.textContent = teachers.description;
-      teacherDisc.appendChild(teacherdisc);
+    const teacherdisc = document.createElement('p');
+    teacherdisc.setAttribute('class', 'teacher-disc');
+    teacherdisc.textContent = teachers.description;
+    teacherDisc.appendChild(teacherdisc);
 
-      const teacherdiscc = document.createElement('p');
-      teacherdiscc.setAttribute('class', 'teacher-disc2');
-      teacherdiscc.textContent = teachers.descriptionn;
-      teacherDisc.appendChild(teacherdiscc);
-
+    const teacherdiscc = document.createElement('p');
+    teacherdiscc.setAttribute('class', 'teacher-disc2');
+    teacherdiscc.textContent = teachers.descriptionn;
+    teacherDisc.appendChild(teacherdiscc);
   }
-}
+};
 
 generateTeacherDom();
 
-  menuIcon.addEventListener('click', () => {
+menuIcon.addEventListener('click', () => {
   menuSection.classList.add('menu-section-active');
 });
 
