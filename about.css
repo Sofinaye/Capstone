@@ -163,8 +163,8 @@ html {
 .logo-heading {
   font-size: 5rem;
   text-align: center;
-  border:1px solid rgb(189, 186, 186);
-  color:#ec5242;
+  border: 1px solid rgb(189, 186, 186);
+  color: #ec5242;
   margin: 3rem 2rem;
   padding: 1rem 0;
 }
@@ -195,13 +195,10 @@ html {
 .experiance-item {
   height: 40vw;
   margin-top: 2rem;
-  background-image: linear-gradient(to right,
-   #f8816379, 
-   #ec5247  ), 
-   url("./img/istockphoto-482362583-612x612.jpg");
-   color: #fff;
-   background-repeat: no-repeat;
-   background-size: cover;
+  background: linear-gradient(to right, #f8816379, #ec5247), url("./img/istockphoto-468438437-612x612.jpg");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .exp {
@@ -218,14 +215,11 @@ html {
 .experiance-item1 {
   height: 40vw;
   margin-top: 2rem;
-  background-image: linear-gradient(to right,
-   #f8816379, 
-   #ec5247  ), 
-   url("./img/istockphoto-468438437-612x612.jpg");
-   color: #fff;
-   margin-bottom: 4rem;
-   background-repeat: no-repeat;
-   background-size: cover;
+  background: linear-gradient(to right, #f8816379, #ec5247), url("./img/istockphoto-468438437-612x612.jpg");
+  color: #fff;
+  margin-bottom: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {
@@ -307,11 +301,11 @@ html {
   html {
     font-size: 80%;
   }
-  
+
   .nav {
     display: none;
   }
-  
+
   .header {
     display: flex;
     font-family: 'Lato', serif;
@@ -331,7 +325,7 @@ html {
   .header a {
     text-decoration: none;
     font-size: 1.5rem;
-    color:#fff;
+    color: #fff;
   }
 
   .dnav {
@@ -372,7 +366,7 @@ html {
 
   .dnav-item button {
     padding: 0.1rem 1rem;
-    color:#ec5242;
+    color: #ec5242;
     border: 3px solid #ec5242;
     background: #fff;
   }
@@ -400,7 +394,7 @@ html {
   .front-contact {
     margin: 0 45%;
   }
-  
+
   .logo-heading {
     margin: 1rem 30%;
   }
