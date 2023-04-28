@@ -535,6 +535,14 @@ html {
     flex-direction: column;
   }
 
+  .dnav {
+    gap: 6rem;
+  }
+
+  .dnav-list {
+    gap: 2rem;
+  }
+
   .teacher1,
   .teacher2 {
     display: flex;
