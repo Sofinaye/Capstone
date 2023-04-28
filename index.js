@@ -1,11 +1,47 @@
-const teachers = {
-  heading: 'Our Teachers',
-  title: 'SehYeong Noh',
-  description: 'Director of Frontend department and member of University board.',
-  descriptionn: 'SehYeong Noh has attended his Masters and Phd degree in this university and He was amongest the best achiveres and he is currently Teaching in this university.',
-  img: './img/teach.png',
-  alt: 'teacher',
-};
+const teachers = [
+  {
+    title: 'SehYeong Noh',
+    description: 'Director of Frontend department and member of University board.',
+    descriptionn: 'SehYeong Noh has attended his Masters and Phd degree in this university and He was amongest the best achiveres and he is currently Teaching in this university.',
+    img: './img/teach.png',
+    alt: 'teacher',
+  },
+  {
+    title: 'Ryan Merkley',
+    description: 'Director of Frontend department and member of University board.',
+    descriptionn: 'SehYeong Noh has attended his Masters and Phd degree in this university and He was amongest the best achiveres and he is currently Teaching in this university.',
+    img: './img/teach1.png',
+    alt: 'teacher',
+  },
+  {
+    title: 'Julia Leda',
+    description: 'Director of Frontend department and member of University board.',
+    descriptionn: 'SehYeong Noh has attended his Masters and Phd degree in this university and He was amongest the best achiveres and he is currently Teaching in this university.',
+    img: './img/teach2.png',
+    alt: 'teacher',
+  },
+  {
+    title: 'Kilnam Chon',
+    description: 'Director of Frontend department and member of University board.',
+    descriptionn: 'SehYeong Noh has attended his Masters and Phd degree in this university and He was amongest the best achiveres and he is currently Teaching in this university.',
+    img: './img/teach3.png',
+    alt: 'teacher',
+  },
+  {
+    title: 'Lila tretikov',
+    description: 'Director of Frontend department and member of University board.',
+    descriptionn: 'SehYeong Noh has attended his Masters and Phd degree in this university and He was amongest the best achiveres and he is currently Teaching in this university.',
+    img: './img/teach4.png',
+    alt: 'teacher',
+  },
+  {
+    title: 'Yonchai Benkler',
+    description: 'Director of Frontend department and member of University board.',
+    descriptionn: 'SehYeong Noh has attended his Masters and Phd degree in this university and He was amongest the best achiveres and he is currently Teaching in this university.',
+    img: './img/teach5.png',
+    alt: 'teacher',
+  },
+];
 
 const menuIcon = document.querySelector('#menu-icon');
 const menuToggle = document.querySelector('#menu-toggle');
@@ -15,7 +51,7 @@ const generateTeacherDom = () => {
   const proContainer = document.querySelector('.teachers');
   const heading = document.createElement('h2');
   heading.setAttribute('class', 'teacher-heading');
-  heading.textContent = teachers.heading;
+  heading.textContent = 'Our Teachers';
   proContainer.appendChild(heading);
 
   const under = document.createElement('div');
