@@ -370,7 +370,8 @@ html {
   }
 
   .heading2 {
-    font-size: 42.5px;
+    font-size: 3rem;
+    color: #4a4e52;
   }
 
   .home-footer {
