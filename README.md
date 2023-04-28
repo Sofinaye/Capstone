@@ -26,7 +26,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-The portfolio is built with html, css and linter configration with git workflow.
+The portfolio is built with html, css, javascript and linter configration with git workflow.
 
 <details>
   <summary>Client</summary>
@@ -41,7 +41,7 @@ The portfolio is built with html, css and linter configration with git workflow.
 
 
 
-- **html css peronal portfolio**
+- **html css javascript peronal portfolio**
 - **git workflow html css linter**
 
 

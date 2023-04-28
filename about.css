@@ -349,6 +349,10 @@ html {
     color: #4a4e52;
   }
 
+  .navbrand:hover {
+    color: #ec5242;
+  }
+
   .dnav-list {
     display: flex;
     list-style: none;
@@ -360,6 +364,10 @@ html {
 
   .dnav-item {
     font-size: 1.2rem;
+  }
+
+  .dnav-item:hover {
+  color: #ec5242;
   }
 
   .dnav-item button {
